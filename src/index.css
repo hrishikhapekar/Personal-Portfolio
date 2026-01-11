@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+html, body, #root {
+  height: 100%;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* Animated gradient blob motion */
+@keyframes blobFloat {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -40px) scale(1.05); }
+  66% { transform: translate(-25px, 25px) scale(0.98); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.blob {
+  animation: blobFloat 10s ease-in-out infinite;
+}
+.blob.blob-delay {
+  animation-delay: 2.5s;
+}
+.blob.blob-delay-2 {
+  animation-delay: 5s;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-rainbowGlow span {
+  background-size: 200% 200%;
+  animation: gradientShift 6s ease infinite;
+}
+
+@keyframes numberShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-numberShimmer {
+  animation: numberShimmer 3.2s ease-in-out infinite;
+}
