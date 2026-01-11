@@ -54,7 +54,7 @@ export default function HeroCard() {
                 translate-y-3
                 drop-shadow-[0_30px_60px_rgba(0,0,0,0.75)]
               "
-              src="src\images\myimage.png"
+              src="/myimage.png"
               alt="portrait"
             />
 

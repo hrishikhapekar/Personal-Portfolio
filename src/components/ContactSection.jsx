@@ -70,7 +70,7 @@ export default function ContactSection() {
 
                     <div className="mt-7 flex flex-wrap gap-3">
                         <GlowSocialButton
-                            href="https://github.com/YOUR_USERNAME"
+                            href="https://github.com/hrishikhapekar"
                             icon={Github}
                             label="GitHub"
                             iconClassName="text-white/85"
@@ -79,7 +79,7 @@ export default function ContactSection() {
                         />
 
                         <GlowSocialButton
-                            href="https://linkedin.com/in/YOUR_USERNAME"
+                            href="https://linkedin.com/in/hrishi-khapekar-b57085271"
                             icon={Linkedin}
                             label="LinkedIn"
                             iconClassName="text-sky-200"
@@ -88,7 +88,7 @@ export default function ContactSection() {
                         />
 
                         <GlowSocialButton
-                            href="https://instagram.com/YOUR_USERNAME"
+                            href="https://instagram.com/hrishi_khapekar_30"
                             icon={Instagram}
                             label="Instagram"
                             iconClassName="text-pink-200"
