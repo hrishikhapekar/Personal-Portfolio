@@ -1,3 +1,4 @@
+import myImg from "../images/myimage.png";
 export default function HeroCard() {
   return (
     <section className="relative overflow-visible rounded-3xl border border-white/10 bg-white/5">
@@ -54,7 +55,7 @@ export default function HeroCard() {
                 translate-y-3
                 drop-shadow-[0_30px_60px_rgba(0,0,0,0.75)]
               "
-              src="/myimage.png"
+              src={myImg}
               alt="portrait"
             />
 
